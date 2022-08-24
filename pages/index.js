@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Sykads aluminium Solution</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
