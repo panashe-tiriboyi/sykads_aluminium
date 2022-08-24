@@ -1,0 +1,14 @@
+.heading {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 45px;
+}
+
+.button {
+  background-color: aqua;
+  border-radius: 21px;
+}
+
+.products {
+  margin-top: 10%;
+}

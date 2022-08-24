@@ -1,0 +1,35 @@
+.home {
+  background-image: url(../public/window.jpg);
+  background-size: cover;
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 40vw;
+  width: 100vw;
+
+  position: relative;
+}
+
+.logo {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-left: 2%;
+  margin-right: 30%;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 40vw;
+  height: 15vw;
+  justify-content: center;
+  position: relative;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

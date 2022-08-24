@@ -1,0 +1,12 @@
+.welcome {
+  justify-content: center;
+  position: relative;
+  margin-top: 5%;
+}
+
+.motto {
+  justify-content: center;
+  position: relative;
+  font-weight: 100;
+  font-size: 30px;
+}
