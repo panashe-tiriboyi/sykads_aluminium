@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Container, Col, Row } from "react-bootstrap";
 import Navigation from "../components/Navbar/navbar";
 import Card from "../components/Card/card";
-import classes from "../styles/products.module.css";
+import classes from "../styles/Products.module.css";
 import Footer from "../components/Footer";
 import Image from "next/image";
 
