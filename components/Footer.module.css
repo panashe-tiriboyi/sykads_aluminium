@@ -5,6 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(60, 67, 67);
+  color: #fff;
 }
 
 .logo {

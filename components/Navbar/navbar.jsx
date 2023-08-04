@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 
 import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
+import { Container, Row, Col } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
+import classes from "../../styles/navbar.module.css";
+import Image from "next/image";
 
 const Navigation = () => {
   return (
@@ -11,26 +13,30 @@ const Navigation = () => {
       expand="lg"
       variant="dark"
       style={{
-        background: "rgba(3, 100, 109, 1) ",
+        background: "rgba(60, 67, 67, 0.935) ",
         position: "fixed",
         width: "100%",
+
         zIndex: "1000",
         margin: "0",
+        padding: "0",
       }}
     >
       <Container>
-        <Navbar.Brand
-          className="Brand"
-          href="#home"
-          style={{ margin: "0px", padding: "0px" }}
-        >
-          <img src="./logo.svg" width="80vw" alt="" />
+        <Navbar.Brand className="Brand" href="/">
+          <Image
+            className={classes.logo_svg}
+            src="/drawing.svg"
+            width={150}
+            height={100}
+            alt=""
+          />
         </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
           className="justify-content-md-centre"
           id="basic-navbar-nav "
-          style={{ margin: "15px" }}
         >
           <Nav
             className="me-auto "
@@ -44,36 +50,30 @@ const Navigation = () => {
           >
             <Nav.Link
               className="btn btn-outline-secondary btn-sm text-light mx-2 "
-              href="#home"
+              href="/"
             >
               Home
             </Nav.Link>
-            <Nav.Link
-              className="btn btn-outline-secondary btn-sm text-light mx-2"
-              href="#aboutUs"
-            >
-              About Us
-            </Nav.Link>
 
             <Nav.Link
               className="btn btn-outline-secondary btn-sm text-light mx-2"
-              href="#Products"
+              href="/products"
             >
               Products
             </Nav.Link>
+            <Nav.Link
+              className="btn btn-outline-secondary btn-sm text-light mx-2"
+              href="/services"
+            >
+              Services
+            </Nav.Link>
 
             <Nav.Link
               className="btn btn-outline-secondary btn-sm text-light mx-2"
-              href="#contactUs"
+              href="/#contactUs"
             >
               ContactUs
             </Nav.Link>
-            <li>
-              <i className="fas fa-phone mt-4 fa-2x "></i>
-              <a className="Contact m-0">
-                <p className=" text-light">Cell:</p>
-              </a>
-            </li>
           </Nav>
         </Navbar.Collapse>
       </Container>

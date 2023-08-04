@@ -1,0 +1,101 @@
+@font-face {
+  font-family: russo;
+  src: url(../RussoOne-Regular.ttf);
+}
+
+.serviceWelcome {
+  background-image: url(../public/glass-window.jpg);
+  background-size: cover;
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  height: 60vh;
+  width: 100vw;
+
+  position: relative;
+}
+
+.image {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 400px;
+  height: 200px;
+  justify-content: center;
+  position: relative;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.elevate {
+  font-family: russo;
+  color: rgb(254, 254, 254);
+  font-size: xx-large;
+  background-color: rgba(0, 0, 0, 0.541);
+  width: 60vw;
+  height: auto;
+  justify-content: center;
+  position: relative;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1024px) {
+  .serviceWelcome {
+    background-image: url(../public/glass-window.jpg);
+
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    height: 40vh;
+    width: 100vw;
+
+    position: relative;
+  }
+}
+.explore {
+  text-align: center;
+  padding: 60px;
+}
+
+.discover {
+  background-color: rgba(3, 100, 109, 1);
+  color: #fff;
+  padding: 10px;
+  padding-block: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+@media (max-width: 776px) {
+  .image {
+    width: 250px;
+    height: 125px;
+  }
+}
+
+@media (max-height: 776px) {
+  .image {
+    width: 250px;
+    height: 125px;
+  }
+  .elevate {
+    font-size: medium;
+  }
+}
+
+@media (max-height: 600px) {
+  .image {
+    width: 200px;
+    height: 100px;
+  }
+  .elevate {
+    font-size: medium;
+  }
+}

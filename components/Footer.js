@@ -1,11 +1,19 @@
-import styles from './Footer.module.css'
+import styles from "./Footer.module.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you
+        <labe>
+          Made by{" "}
+          <Link href="https://platformdev.co.za/">
+            <a target="_blank" rel="noopener noreferrer">
+              Platform Developers
+            </a>
+          </Link>{" "}
+        </labe>
       </footer>
     </>
-  )
+  );
 }
