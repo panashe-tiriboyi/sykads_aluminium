@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import { Container, Row, Col } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
-import classes from "../../styles/Navbar.module.css";
+import classes from "../../styles/navbar.module.css";
 import Image from "next/image";
 
 const Navigation = () => {

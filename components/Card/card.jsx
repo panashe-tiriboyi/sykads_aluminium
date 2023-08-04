@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../../styles/Card.module.css";
+import classes from "../../styles/card.module.css";
 import { Col } from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
